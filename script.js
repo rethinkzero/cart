@@ -1,14 +1,14 @@
-const cart = document.getElementById("items-section");
+const cart = document.getElementById('items-section');
 
-const addButtons = document.querySelectorAll("cart-section");
+const addButtons = document.querySelectorAll('cart-section');
 
-const removeButton = document.getElementById("remove-btn");
+const removeButton = document.getElementById('remove-btn');
 
 addButtons.forEach(button => {
   button.addEventListener("click", () => {
-    const itemName = button.getAttribute("data-item");
+    const itemName = button.getAttribute('data-item');
 
-    const option = document.createElement("option");
+    const option = document.createElement('option');
     option.textContent = itemName;
     option.value = itemName;
 
