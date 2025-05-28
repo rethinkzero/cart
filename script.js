@@ -15,14 +15,12 @@ addButtons.forEach(button => {
     cart.appendChild(option);
   });
 });
-/*
+
 removeButton.addEventListener("click", () => {
-  const selected = Array.from(cart.selection());  
+  const selected = Array.from(cart.SelectedOptions);  
 
   selected.forEach(option => {
-    cart.removeChild(selected);
+    cart.removeChild(option);
   });
 });
-What this code does is:
-*/
 
